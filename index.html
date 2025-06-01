@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Louie Jay Nalicat - Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+      <img src="mylogo.png" alt="Louie Jay Logo" class="logo">
+    </div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#skills">SKILLS</a></li>
+        <li><a href="#achievements">ACHIEVEMENTS</a></li>
+        <li><a href="#address">ADDRESS</a></li>
+      </ul>
+      <div class="burger" id="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+    <div class="mobile-menu" id="mobileMenu">
+      <ul>
+        <li><a href="#about" onclick="closeMenu()">ABOUT</a></li>
+        <li><a href="#skills" onclick="closeMenu()">SKILLS</a></li>
+        <li><a href="#achievements" onclick="closeMenu()">ACHIEVEMENTS</a></li>
+        <li><a href="#address" onclick="closeMenu()">ADDRESS</a></li>
+      </ul>
+    </div>
+  </header>
+  <main>
+    <section id="about" class="section about-section">
+      <h1>ABOUT ME</h1>
+      <div class="about-content">
+        <div class="about-text">
+          <p>
+            Hi, I'm Louie Jay Nalicat, a beginner web designer passionate about creating clean, simple, and user-friendly websites.
+          </p>
+        </div>
+        <div class="about-img">
+          <img src="mypicc.jpg" alt="Louie Jay Nalicat at the beach">
+        </div>
+      </div>
+    </section>
+    <section id="skills" class="section skills-section">
+      <h1>SKILLS</h1>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java Programs" class="skill-img skill-img-java">
+          <span>JAVA PROGRAMS</span>
+        </div>
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python Programs" class="skill-img">
+          <span>PYTHON PROGRAMS</span>
+        </div>
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="UX/UI Design" class="skill-img skill-img-uiux">
+          <span>UX/UI DESIGN</span>
+        </div>
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" class="skill-img">
+          <span>HTML</span>
+        </div>
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg" alt="Graphics Design" class="skill-img">
+          <span>GRAPHICS DESIGN</span>
+        </div>
+      </div>
+    </section>
+    <section id="achievements" class="section achievements-section">
+      <h1>ACHIEVEMENTS</h1>
+      <div class="achievements-grid">
+        <div class="achievement-card">
+          <img src="Shs.jpg" alt="SHS With Honors" class="achievement-img">
+          <div class="achievement-desc">SHS-WITH HONORS</div>
+        </div>
+        <div class="achievement-card">
+          <img src="scout.jpg" alt="Boy Scout Leader" class="achievement-img achievement-img-scout">
+          <div class="achievement-desc">BOY SCOUT LEADER IN ELEM</div>
+        </div>
+        <div class="achievement-card">
+          <img src="Math.jpg" alt="Mathematical Wizard Award" class="achievement-img achievement-img-cert">
+          <div class="achievement-desc">MATHEMATICAL WIZARD AWARD</div>
+        </div>
+        <div class="achievement-card">
+          <img src="nstp.jpg" alt="NSTP Graduate" class="achievement-img achievement-img-nstp">
+          <div class="achievement-desc">NSTP GRADUATE</div>
+        </div>
+      </div>
+    </section>
+    <section id="address" class="section address-section">
+      <h1>ADDRESS</h1>
+      <div class="address-text">
+        TAUGTOG, BOTOLAN, ZAMBALES
+      </div>
+      <div class="socials">
+           <a href="https://www.facebook.com/share/15uDt72NqN/"><i class="fa-brands fa-facebook facebook"></i></a>
+      <a href="https://www.reddit.com/?rdt=54877"><i class="fa-brands fa-reddit reddit"></i></a>
+      <a href="https://github.com/luwipogi"><i class="fa-brands fa-github"></i></a>
+      <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
